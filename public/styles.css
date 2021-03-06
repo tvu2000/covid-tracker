@@ -1,6 +1,8 @@
 body {
   font-family: "Varela Round", sans-serif;
 }
+
+/* pop up */
 .modal-newsletter {
   color: #999;
   width: 625px;
@@ -81,4 +83,32 @@ body {
 .hint-text {
   margin: 100px auto;
   text-align: center;
+}
+
+
+/* navigation bar */
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+.navbar {
+  background:#ffffff;
+}
+.nav-link,
+.navbar-brand {
+  color: rgb(24, 23, 23);
+  cursor: pointer;
+}
+.navbar-under{
+  margin-left: 1em !important;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
 }
