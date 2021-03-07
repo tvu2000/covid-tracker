@@ -126,11 +126,17 @@ body {
 }
 
 .sub-container{
-  padding: 100px 0px 0px 50px; 
-  font-size: 90px;
+  padding: 150px 0px 0px 50px; 
+  font-size: 90px; 
 }
+
 
 .container-2{
   height: 500px; 
   background-color: antiquewhite;
+}
+
+/* twitter feed */
+.twitter-feed{
+  padding-top: 70px;
 }
