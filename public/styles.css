@@ -207,11 +207,11 @@ img
 
 @keyframes slider 
 {
-    0%{background-image: url(img_1.jpg); background-size: 100% 100%;}
+    0%{background-image: url(./images/image4.jpg); background-size: 100% 100%;}
     
-    25%{background-image: url(img_1.jpg); background-size: 100% 100%;}
-    50%{background-image: url(img_1.jpg); background-size: 100% 100%;}
-    75%{background-image: url(img_1.jpg); background-size: 100% 100%;}
+    25%{background-image: url(./images/image5.jpg); background-size: 100% 100%;}
+    50%{background-image: url(./images/image4.jpg); background-size: 100% 100%;}
+    75%{background-image: url(./images/image5.jpg); background-size: 100% 100%;}
     
 }
 
