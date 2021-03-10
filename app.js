@@ -20,9 +20,17 @@ app.get("/tweet", function(req, res){
 })
 
 app.get("/US", function(req, res){
-    res.render("tweet.ejs"); 
+    res.render("US.ejs"); 
 })
 
 app.get("/vaccine", function(req, res){
-    res.render("tweet.ejs"); 
+    res.render("vaccine.ejs"); 
+})
+
+app.get("/Global", function(req, res){
+    res.render("global.ejs"); 
+})
+
+app.get("/chat", function(req, res){
+    res.render("chat-forum.ejs"); 
 })
